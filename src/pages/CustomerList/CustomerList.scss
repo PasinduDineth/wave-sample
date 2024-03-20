@@ -1,0 +1,12 @@
+@import "../../theme.scss";
+.customer-list-container {
+    > h3 {
+        color: $primary-color;
+        font-weight: $bold;
+        font-size: $font-size-md;
+    }
+    > p {
+        color: $text-color;
+        font-size: $font-size-sm;
+    }
+}

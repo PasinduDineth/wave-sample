@@ -1,0 +1,11 @@
+@import "../../../theme.scss";
+.badge {
+    background-color: $secondary-color;
+    border-radius: $border-radius;
+    margin: 0px 5px;
+    padding: 5px 14px 5px 14px;
+    width: fit-content;
+    font-size: $font-size-xs;
+    color: $white;
+    font-weight: $regular;
+}

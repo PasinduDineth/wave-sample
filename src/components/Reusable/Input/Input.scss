@@ -1,0 +1,32 @@
+@import "../../../theme.scss";
+
+.input-field-wrapper {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    > input {
+        border-radius: calc($border-radius - 5px);
+        border: 0px;
+        padding: 7px;
+        margin: 5px 0px;
+        font-weight: $regular;
+        font-size: $font-size-xs;
+        color: $primary-color;
+        outline: 0px;
+    }
+    > label, > p {
+        font-weight: $regular;
+        font-size: $font-size-sm;
+        color: $primary-color;
+    }
+
+    > p {
+        color: $secondary-color;
+    }
+
+    @media #{$xl-query}, #{$xxl-query} {
+        > input {
+            width: 25%;
+        }
+    }
+}

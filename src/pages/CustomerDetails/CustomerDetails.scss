@@ -1,0 +1,16 @@
+@import "../../theme.scss";
+
+.customer-details-container {
+    > h3 {
+        color: $primary-color;
+        font-weight: $bold;
+        font-size: $font-size-md;
+    }
+    > p {
+        color: $text-color;
+        font-size: $font-size-sm;
+    }
+}
+.form-container {
+    padding: 20px 0px;
+}

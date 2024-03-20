@@ -1,0 +1,44 @@
+// theme.scss
+
+// Colors
+$primary-color: #001B66;
+$secondary-color: #C997DB;
+$background-color: #fcece3;
+$text-color: #292929;
+$white: #fff;
+$gray: #e8e8e8;
+
+// Font
+$font-family: 'Work Sans', sans-serif;
+$font-size-md: 18px;
+$font-size-sm: 14px;
+$font-size-lg: 22px;
+$font-size-xs: 12px;
+
+
+//border and redius
+$border: 1px solid $primary-color;
+$border-radius: 10px;
+
+// weights
+$bold: 600;
+$regular: 500;
+$thin: 400;
+
+// Spacing
+$padding: 16px;
+
+// Responsive Breakpoints
+$xs: 480px;
+$sm: 600px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+// Media Queries
+$xs-query: "only screen and (max-width: #{$xs})";
+$sm-query: "only screen and (min-width: #{$xs + 1}) and (max-width: #{$sm})";
+$md-query: "only screen and (min-width: #{$sm + 1}) and (max-width: #{$md})";
+$lg-query: "only screen and (min-width: #{$md + 1}) and (max-width: #{$lg})";
+$xl-query: "only screen and (min-width: #{$lg + 1}) and (max-width: #{$xl})";
+$xxl-query: "only screen and (min-width: #{$xl + 1})";

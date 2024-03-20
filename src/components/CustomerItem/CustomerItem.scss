@@ -1,0 +1,31 @@
+@import "../../theme.scss";
+.customer-item-container {
+    margin-top: 15px;
+    border: $border;
+    border-radius: $border-radius;
+    padding: calc($padding - 4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .customer-details-content {
+        > div {
+            display: flex;
+            align-items: center;
+            > h5 {
+                color: $primary-color;
+                font-weight: $bold;
+                font-size: $font-size-sm;
+            }
+        }
+        > p {
+            font-size: $font-size-sm;
+        }
+    }
+}
+
+.customer-edit-icon {
+    color: $primary-color;
+    background-color: $white;
+    padding: calc($padding - 6px);
+    border-radius: $border-radius;
+}

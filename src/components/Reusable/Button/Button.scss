@@ -1,0 +1,17 @@
+@import "../../../theme.scss";
+
+.button-element {
+  background-color: $secondary-color;
+  padding: 10px 15px;
+  border-radius: $border-radius;
+  border: 0;
+  box-shadow: none;
+  font-size: $font-size-xs;
+  color: $primary-color;
+  font-weight: $bold;
+  margin: 5px 0;
+
+  &:disabled {
+    background-color: $gray;
+  }
+}
